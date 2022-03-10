@@ -1,125 +1,125 @@
-__label__FR Tất cả các thiết bị của doanh nghiệp, được quản lý bằng cách tích hợp code (bar code/ QR code/ RFID,...) lưu trữ toàn bộ thông tin mã hóa của từng thiết bị, được ghi nhận ở các trạng thái Đang hoạt động/ Không hoạt động trên hệ thống.
-__label__FR Phiếu tổng hợp tất cả các công việc bảo trì cần làm cho một tổ hợp thiết bị tại 1 thời điểm; được ghi nhận ở các trạng thái Chờ duyệt/ Đã duyệt/ Đã hủy trên hệ thống.
-__label__FR Danh sách kiểm tra bảo trì sau khi được phê duyệt sẽ chuyển thành Đơn đặt hàng bảo trì, với thông tin tương tự Danh sách kiểm tra bảo trì, được ghi nhận ở các trạng thái Đang mở/ Đã đóng trên hệ thống.
-__label__FR Chi tiết công việc bảo trì giao cho một Technician cụ thể, được ghi nhận dưới trạng thái tiến độ chi tiết (% hoàn thành) trên hệ thống.
+__label__FR Tất cả các thiết bị của doanh nghiệp, được quản lý bằng cách tích hợp code (bar code/ QR code/ RFID,...) lưu trữ toàn bộ thông tin mã hóa của từng thiết bị, được ghi nhận ở các trạng thái Đang hoạt động/ Không hoạt động trên hệ thống. 
+__label__FR Phiếu tổng hợp tất cả các công việc bảo trì cần làm cho một tổ hợp thiết bị tại 1 thời điểm; được ghi nhận ở các trạng thái Chờ duyệt/ Đã duyệt/ Đã hủy trên hệ thống. 
+__label__FR Danh sách kiểm tra bảo trì sau khi được phê duyệt sẽ chuyển thành Đơn đặt hàng bảo trì, với thông tin tương tự Danh sách kiểm tra bảo trì, được ghi nhận ở các trạng thái Đang mở/ Đã đóng trên hệ thống. 
+__label__FR Chi tiết công việc bảo trì giao cho một Technician cụ thể, được ghi nhận dưới trạng thái tiến độ chi tiết (% hoàn thành) trên hệ thống. 
 __label__FR Kết quả bảo trì ghi nhận trên từng thiết bị. 
-__label__FR Các đối tượng trên đều có ID định danh trên hệ thống.
-__label__FR Line Manager tạo mới Danh sách bảo trì trên hệ thống 
-__label__FR Line Manager chỉnh sửa thông tin Danh sách bảo trì trên hệ thống 
-__label__FR Production Manager nhận thông báo về Danh sách bảo trì mới để phê duyệt
-__label__FR Line Manager/ Production Manager/ Procurement Manager xem danh sách toàn bộ Danh sách bảo trì trên hệ thống được phân loại theo các trạng thái Chờ duyệt/ Đã duyệt/ Đã hủy.
-__label__FR Line Manager/ Production Manager/ Procurement Manager xem trang chi tiết Danh sách bảo trì bất kỳ.
-__label__FR Line Manager/ Production Manager/ Procurement Manager  tìm/lọc Danh sách bảo trì trên hệ thống.
-__label__FR Line Manager/ Production Manager xóa Danh sách bảo trì trên hệ thống
-__label__FR Production Manager phê duyệt/ từ chối phê duyệt Danh sách bảo trì trên hệ thống.
-__label__FR Mỗi thiết bị được quản lý bao gồm các thông tin sau: Asset code, Tên thiết bị, Mô tả, Số seri Loại thiết bị (Asset type), Tình trạng (Hoạt động/ Không hoạt động) (Status (Active/ Deactive)), Bộ phận quản lý, thông tin bàn giao, Địa điểm, Ngày mua & thời gian hoạt động dự kiến, Năm SX & nhà SX, Ghi chú chi tiết tình trạng thiết bị.
-__label__FR Line Manager nhận cảnh báo về thời hạn hiệu lực của hồ sơ, giấy tờ
-__label__FR Line Manager nhận cảnh báo về thời hạn các hạng mục, linh kiện, phụ tùng của từng thiết bị đến kỳ thực hiện bảo dưỡng, thay thế
-__label__FR Line Manager nhận cảnh báo số lượng vật tư cần mua để thực hiện kế hoạch bảo dưỡng định kỳ.
-__label__FR Technician đặt lịch nhắc cho Nhiệm vụ bảo trì/ ngày/ giờ tùy chọn, bao gồm Task ID, Date, Time
-__label__FR Technician xem trang chi tiết nhắc nhở lịch bảo trì đã tạo.
-__label__FR Technician /Line Manager/ Production Manager xem danh sách Nhiệm vụ bảo trì trên hệ thống trong ngày/tuần/ tháng/ thời gian tùy chọn.
-__label__FR Technician nhận thông báo khi có Nhiệm vụ bảo trì sắp đến hạn hoàn thành.
-__label__FR Line Manager nhận thông báo khi có thiết bị đến hạn bảo trì định kỳ nhưng chưa có Nhiệm vụ bảo trì được tạo.
-__label__FR IT Manager thiết lập thông báo/ nhắc nhở mặc định cho từng loại vai trò trên hệ thống với Tên thông báo, Nội dung thông báo, Thời điểm thông báo, Sự kiện cơ sở để gửi thông báo
-__label__FR IT Manager xem danh sách thông báo/ nhắc nhở mặc định
-__label__FR IT Manager chỉnh sửa chi tiết thông báo/ nhắc nhở
-__label__FR IT Manager xóa thông báo/ nhắc nhở
-__label__FR IT Manager thiết lập danh mục Loại tài sản (Asset type)
-__label__FR IT Manager thiết lập các trường thông phụ thuộc từng loại tài sản
-__label__FR IT Manager thiết lập danh mục hạng mục công việc bảo trì (dựa trên loại tài sản)
-__label__FR IT Manager thiết lập bộ máy nhân sự trên hệ thống (bộ phận, trưởng bộ phận, danh sách người dùng, phân quyền, thời gian truy cập được phép)
-__label__FR __label__FR Technician ghi nhận lỗi thiết bị trên hệ thống, bao gồm Scan code để định danh thiết bị và Điền các thông tin cần thiết
-__label__FR Line Manager nhận thông báo về lỗi thiết bị phát sinh
-__label__FR Line Manager tạo Danh sách bảo trì tương ứng
-__label__FR Technician/ Line Manager/ Production Manager xem danh sách lỗi thiết bị trên hệ thống.
-__label__FR Technician/ Line Manager/ Production Manager chỉnh sửa, cập nhật thông tin lỗi thiết bị trên hệ thống.
-__label__FR Technician/ Line Manager/ Production Manager xem trang chi tiết Lỗi thiết bị bất kỳ.
-__label__FR Technician/ Line Manager/ Production Manager  tìm/lọc Lỗi thiết bị trên hệ thống.
-__label__FR Line Manager/ Production Manager xóa Lỗi thiết bị trên hệ thống.
-__label__FR Line Manager/ Production Manager/ Procurement Manager xem danh sách toàn bộ Đơn đặt hàng bảo trì trên hệ thống được phân loại theo các trạng thái Đang mở/ Đã đóng.
-__label__FR Line Manager/ Prodution Manager/ Procurement Manager xem trang chi tiết Đơn đặt hàng bảo trì bất kỳ.
-__label__FR Line Manager/ Production Manager/ Procurement Manager  tìm/lọc Đơn đặt hàng bảo trì trên hệ thống.
-__label__FR Production Manager xóa Đơn đặt hàng bảo trì trên hệ thống.
-__label__FR Line Manager/ Production Manager nhận thông báo về Đơn đặt hàng bảo trì đã hoàn thành trên hệ thống
-__label__FR Line Manager/ Production Manager xem báo cáo kết quả, tiến độ thực tế của Đơn đặt hàng bảo trì đã hoàn thành trên hệ thống
-__label__FR Procurement Manager nhận thông báo về số liệu vật tư cần có khi có Đơn đặt hàng bảo trì vừa mở.
-__label__FR Procurement Manager xác nhận đủ vật tư cần có cho mỗi Đơn đặt hàng bảo trì đang mở trên hệ thống.
-__label__FR Technician nhận thông báo về Nhiệm vụ bảo trì mới được giao.
-__label__FR Technician xem danh sách các Nhiệm vụ bảo trì phân cho mình trên hệ thống.
-__label__FR Technician scan code trên thiết bị để mở bảng điều khiển & xem thông tin công việc phải làm trên thiết bị đó.
-__label__FR Technician thực hiện công việc được chỉ định và record kết quả lên hệ thống sau khi hoàn thành mỗi công việc (check done)
-__label__FR Line Manager/ Production Manager xem danh sách toàn bộ Nhiệm vụ bảo trì trên hệ thống được phân loại theo các trạng thái Đang mở/ Đã đóng.
-__label__FR Line Manager/ Production Manager xem trang chi tiết Nhiệm vụ bảo trì bất kỳ, tiến độ thực hiện Nhiệm vụ.
-__label__FR Line Manager/ Production Manager  tìm/lọc Nhiệm vụ bảo trì trên hệ thống.
-__label__FR Line Manager/ Production Manager xóa Nhiệm vụ bảo trì trên hệ thống.
-__label__FR Line Manager/ Production Manager nhận thông báo về Nhiệm vụ bảo trì đã hoàn thành trên hệ thống
-__label__FR Line Manager/ Production Manager xem báo cáo kết quả, tiến độ thực tế của Nhiệm vụ bảo trì đã hoàn thành trên hệ thống
-__label__FR IT Manager tạo tài khoản người dùng hệ thống
-__label__FR IT Manager phân quyền người dùng hệ thống (Procurement Manager/ Production Manager/ Line Manager/ Technician)
-__label__FR IT Manager cập nhật thông tin người dùng hệ thống: bộ phận, các thông tin định danh, người quản lý trực tiếp
-__label__FR IT Manager quản lý trạng thái tài khoản người dùng (activated/ deactivated).
-__label__FR IT Manager xem danh sách người dùng theo bộ phận/ địa điểm/ vai trò.
-__label__FR IT Manager xóa tài khoản người dùng.
-__label__FR Line Manager/ Production Manager xem danh sách Template bảo trì trên hệ thống.
-__label__FR Line Manager/ Production Manager sửa Template bảo trì trên hệ thống.
-__label__FR Line Manager/ Production Manager xem trang chi tiết Template  bảo trì bất kỳ.
-__label__FR Line Manager/ Production Manager  tìm/lọc Template bảo trì trên hệ thống.
-__label__FR Line Manager/ Production Manager xóa Template bảo trì trên hệ thống.
-__label__FR Technician xem report về tình hình, hiệu suất của các thiết bị mình phụ trách.
-__label__FR Line Manager, Production Manager xem toàn bộ chỉ số trên dashboard.
-__label__FR Procurement Manager xem báo cáo về tổng quan số lượng thiết bị, vật tư đã cung ứng.
-__label__FR Procurement Manager xem dự đoán bổ sung thiết bị, vật tư để lập kế hoạch cung ứng.
-__label__FR Mỗi người dùng có thể truy cập các nội dung cá nhân để xem & chỉnh sửa, gồm Thông tin cơ bản, Thông báo từ hệ thống, Nhắc nhở đã tạo, Công việc được phân công
-__label__FR Line Manager tạo Hướng dẫn công việc trên hệ thống
-__label__FR Technician/ Line Manager/ Production Manager xem danh sách HDCV trên hệ thống.
-__label__FR Line Manager/ Production Manager sửa HDCV trên hệ thống.
-__label__FR Technician/ Line Manager/ Production Manager xem trang chi tiết HDCV bất kỳ.
-__label__FR Technician/ Line Manager/ Production Manager  tìm/lọc HDCV trên hệ thống.
-__label__FR Line Manager/ Production Manager xóa HDCV  trên hệ thống.
-__label__FR Technician/ Line Manager/ Production Manager chỉnh sửa thông tin Asset trên hệ thống 
-__label__FR Technician/ Line Manager/ Production Manager/ Procurement Manager xem danh sách toàn bộ Asset trên hệ thống.
-__label__FR Technician/ Line Manager/ Production Manager/ Procurement Manager tìm/ lọc Asset trên hệ thống.
-__label__FR Technician/ Line Manager/ Production Manager xóa Asset trên hệ thống
-__label__FR Technician/ Line Manager/ Production Manager chỉnh sửa thông tin Asset trên hệ thống 
-__label__FR Technician/ Line Manager/ Production Manager/ Procurement Manager xem danh sách toàn bộ Asset trên hệ thống 
+__label__FR Các đối tượng trên đều có ID định danh trên hệ thống. 
+__label__FR Line Manager tạo mới Danh sách bảo trì trên hệ thống  
+__label__FR Line Manager chỉnh sửa thông tin Danh sách bảo trì trên hệ thống  
+__label__FR Production Manager nhận thông báo về Danh sách bảo trì mới để phê duyệt 
+__label__FR Line Manager/ Production Manager/ Procurement Manager xem danh sách toàn bộ Danh sách bảo trì trên hệ thống được phân loại theo các trạng thái Chờ duyệt/ Đã duyệt/ Đã hủy. 
+__label__FR Line Manager/ Production Manager/ Procurement Manager xem trang chi tiết Danh sách bảo trì bất kỳ. 
+__label__FR Line Manager/ Production Manager/ Procurement Manager  tìm/lọc Danh sách bảo trì trên hệ thống. 
+__label__FR Line Manager/ Production Manager xóa Danh sách bảo trì trên hệ thống 
+__label__FR Production Manager phê duyệt/ từ chối phê duyệt Danh sách bảo trì trên hệ thống. 
+__label__FR Mỗi thiết bị được quản lý bao gồm các thông tin sau: Asset code, Tên thiết bị, Mô tả, Số seri Loại thiết bị (Asset type), Tình trạng (Hoạt động/ Không hoạt động) (Status (Active/ Deactive)), Bộ phận quản lý, thông tin bàn giao, Địa điểm, Ngày mua & thời gian hoạt động dự kiến, Năm SX & nhà SX, Ghi chú chi tiết tình trạng thiết bị. 
+__label__FR Line Manager nhận cảnh báo về thời hạn hiệu lực của hồ sơ, giấy tờ 
+__label__FR Line Manager nhận cảnh báo về thời hạn các hạng mục, linh kiện, phụ tùng của từng thiết bị đến kỳ thực hiện bảo dưỡng, thay thế 
+__label__FR Line Manager nhận cảnh báo số lượng vật tư cần mua để thực hiện kế hoạch bảo dưỡng định kỳ. 
+__label__FR Technician đặt lịch nhắc cho Nhiệm vụ bảo trì/ ngày/ giờ tùy chọn, bao gồm Task ID, Date, Time 
+__label__FR Technician xem trang chi tiết nhắc nhở lịch bảo trì đã tạo. 
+__label__FR Technician /Line Manager/ Production Manager xem danh sách Nhiệm vụ bảo trì trên hệ thống trong ngày/tuần/ tháng/ thời gian tùy chọn. 
+__label__FR Technician nhận thông báo khi có Nhiệm vụ bảo trì sắp đến hạn hoàn thành. 
+__label__FR Line Manager nhận thông báo khi có thiết bị đến hạn bảo trì định kỳ nhưng chưa có Nhiệm vụ bảo trì được tạo. 
+__label__FR IT Manager thiết lập thông báo/ nhắc nhở mặc định cho từng loại vai trò trên hệ thống với Tên thông báo, Nội dung thông báo, Thời điểm thông báo, Sự kiện cơ sở để gửi thông báo 
+__label__FR IT Manager xem danh sách thông báo/ nhắc nhở mặc định 
+__label__FR IT Manager chỉnh sửa chi tiết thông báo/ nhắc nhở 
+__label__FR IT Manager xóa thông báo/ nhắc nhở 
+__label__FR IT Manager thiết lập danh mục Loại tài sản (Asset type) 
+__label__FR IT Manager thiết lập các trường thông phụ thuộc từng loại tài sản 
+__label__FR IT Manager thiết lập danh mục hạng mục công việc bảo trì (dựa trên loại tài sản) 
+__label__FR IT Manager thiết lập bộ máy nhân sự trên hệ thống (bộ phận, trưởng bộ phận, danh sách người dùng, phân quyền, thời gian truy cập được phép) 
+__label__FR __label__FR Technician ghi nhận lỗi thiết bị trên hệ thống, bao gồm Scan code để định danh thiết bị và Điền các thông tin cần thiết 
+__label__FR Line Manager nhận thông báo về lỗi thiết bị phát sinh 
+__label__FR Line Manager tạo Danh sách bảo trì tương ứng 
+__label__FR Technician/ Line Manager/ Production Manager xem danh sách lỗi thiết bị trên hệ thống. 
+__label__FR Technician/ Line Manager/ Production Manager chỉnh sửa, cập nhật thông tin lỗi thiết bị trên hệ thống. 
+__label__FR Technician/ Line Manager/ Production Manager xem trang chi tiết Lỗi thiết bị bất kỳ. 
+__label__FR Technician/ Line Manager/ Production Manager  tìm/lọc Lỗi thiết bị trên hệ thống. 
+__label__FR Line Manager/ Production Manager xóa Lỗi thiết bị trên hệ thống. 
+__label__FR Line Manager/ Production Manager/ Procurement Manager xem danh sách toàn bộ Đơn đặt hàng bảo trì trên hệ thống được phân loại theo các trạng thái Đang mở/ Đã đóng. 
+__label__FR Line Manager/ Prodution Manager/ Procurement Manager xem trang chi tiết Đơn đặt hàng bảo trì bất kỳ. 
+__label__FR Line Manager/ Production Manager/ Procurement Manager  tìm/lọc Đơn đặt hàng bảo trì trên hệ thống. 
+__label__FR Production Manager xóa Đơn đặt hàng bảo trì trên hệ thống. 
+__label__FR Line Manager/ Production Manager nhận thông báo về Đơn đặt hàng bảo trì đã hoàn thành trên hệ thống 
+__label__FR Line Manager/ Production Manager xem báo cáo kết quả, tiến độ thực tế của Đơn đặt hàng bảo trì đã hoàn thành trên hệ thống 
+__label__FR Procurement Manager nhận thông báo về số liệu vật tư cần có khi có Đơn đặt hàng bảo trì vừa mở. 
+__label__FR Procurement Manager xác nhận đủ vật tư cần có cho mỗi Đơn đặt hàng bảo trì đang mở trên hệ thống. 
+__label__FR Technician nhận thông báo về Nhiệm vụ bảo trì mới được giao. 
+__label__FR Technician xem danh sách các Nhiệm vụ bảo trì phân cho mình trên hệ thống. 
+__label__FR Technician scan code trên thiết bị để mở bảng điều khiển & xem thông tin công việc phải làm trên thiết bị đó. 
+__label__FR Technician thực hiện công việc được chỉ định và record kết quả lên hệ thống sau khi hoàn thành mỗi công việc (check done) 
+__label__FR Line Manager/ Production Manager xem danh sách toàn bộ Nhiệm vụ bảo trì trên hệ thống được phân loại theo các trạng thái Đang mở/ Đã đóng. 
+__label__FR Line Manager/ Production Manager xem trang chi tiết Nhiệm vụ bảo trì bất kỳ, tiến độ thực hiện Nhiệm vụ. 
+__label__FR Line Manager/ Production Manager  tìm/lọc Nhiệm vụ bảo trì trên hệ thống. 
+__label__FR Line Manager/ Production Manager xóa Nhiệm vụ bảo trì trên hệ thống. 
+__label__FR Line Manager/ Production Manager nhận thông báo về Nhiệm vụ bảo trì đã hoàn thành trên hệ thống 
+__label__FR Line Manager/ Production Manager xem báo cáo kết quả, tiến độ thực tế của Nhiệm vụ bảo trì đã hoàn thành trên hệ thống 
+__label__FR IT Manager tạo tài khoản người dùng hệ thống 
+__label__FR IT Manager phân quyền người dùng hệ thống (Procurement Manager/ Production Manager/ Line Manager/ Technician) 
+__label__FR IT Manager cập nhật thông tin người dùng hệ thống: bộ phận, các thông tin định danh, người quản lý trực tiếp 
+__label__FR IT Manager quản lý trạng thái tài khoản người dùng (activated/ deactivated). 
+__label__FR IT Manager xem danh sách người dùng theo bộ phận/ địa điểm/ vai trò. 
+__label__FR IT Manager xóa tài khoản người dùng. 
+__label__FR Line Manager/ Production Manager xem danh sách Template bảo trì trên hệ thống. 
+__label__FR Line Manager/ Production Manager sửa Template bảo trì trên hệ thống. 
+__label__FR Line Manager/ Production Manager xem trang chi tiết Template  bảo trì bất kỳ. 
+__label__FR Line Manager/ Production Manager  tìm/lọc Template bảo trì trên hệ thống. 
+__label__FR Line Manager/ Production Manager xóa Template bảo trì trên hệ thống. 
+__label__FR Technician xem report về tình hình, hiệu suất của các thiết bị mình phụ trách. 
+__label__FR Line Manager, Production Manager xem toàn bộ chỉ số trên dashboard. 
+__label__FR Procurement Manager xem báo cáo về tổng quan số lượng thiết bị, vật tư đã cung ứng. 
+__label__FR Procurement Manager xem dự đoán bổ sung thiết bị, vật tư để lập kế hoạch cung ứng. 
+__label__FR Mỗi người dùng có thể truy cập các nội dung cá nhân để xem & chỉnh sửa, gồm Thông tin cơ bản, Thông báo từ hệ thống, Nhắc nhở đã tạo, Công việc được phân công 
+__label__FR Line Manager tạo Hướng dẫn công việc trên hệ thống 
+__label__FR Technician/ Line Manager/ Production Manager xem danh sách HDCV trên hệ thống. 
+__label__FR Line Manager/ Production Manager sửa HDCV trên hệ thống. 
+__label__FR Technician/ Line Manager/ Production Manager xem trang chi tiết HDCV bất kỳ. 
+__label__FR Technician/ Line Manager/ Production Manager  tìm/lọc HDCV trên hệ thống. 
+__label__FR Line Manager/ Production Manager xóa HDCV  trên hệ thống. 
+__label__FR Technician/ Line Manager/ Production Manager chỉnh sửa thông tin Asset trên hệ thống  
+__label__FR Technician/ Line Manager/ Production Manager/ Procurement Manager xem danh sách toàn bộ Asset trên hệ thống. 
+__label__FR Technician/ Line Manager/ Production Manager/ Procurement Manager tìm/ lọc Asset trên hệ thống. 
+__label__FR Technician/ Line Manager/ Production Manager xóa Asset trên hệ thống 
+__label__FR Technician/ Line Manager/ Production Manager chỉnh sửa thông tin Asset trên hệ thống  
+__label__FR Technician/ Line Manager/ Production Manager/ Procurement Manager xem danh sách toàn bộ Asset trên hệ thống  
 __label__FR Technician/ Line Manager/ Production Manager/ Procurement Manager tìm/ lọc Asset trên hệ thống 
-__label__FR Technician/ Line Manager/ Production Manager xóa Asset trên hệ thống
-__label__NF Hệ thống sẽ làm mới màn hình sau mỗi 60 giây.
-__label__NF Ứng dụng phải phù hợp với màu của lược đồ do Bộ An ninh Nội địa quy định
-__label__NF Nếu được chiếu, dữ liệu phải có thể đọc được. Trên màn hình chiếu 10x10, 90% người xem phải có thể đọc dữ liệu Sự kiện / Hoạt động từ khoảng cách xem 30.
-__label__NF Sản phẩm sẽ có sẵn trong giờ làm việc bình thường. Miễn là người dùng có quyền truy cập vào PC khách hàng, hệ thống sẽ khả dụng 99% thời gian trong sáu tháng đầu hoạt động. 
-__label__NF Sản phẩm phải đảm bảo rằng nó chỉ có thể được truy cập bởi người dùng được ủy quyền. Sản phẩm sẽ có thể phân biệt giữa người dùng được ủy quyền và người dùng trái phép trong mọi nỗ lực truy cập.
-__label__NF Sản phẩm sẽ phản hồi nhanh để cập nhật dữ liệu mới nhất trên màn hình
-__label__NF Hệ thống phải có dạng MDI cho phép xem biểu đồ và bảng dữ liệu.
-__label__NF Hệ thống sẽ hiển thị các Sự kiện trong một bảng dọc theo thời gian.
-__label__NF Màn hình sẽ có hai vùng: 2/3 bên trái của màn hình là đồ họa bên phải 1/3 của màn hình là bảng dữ liệu.
-__label__NF Mặt bảng của màn hình sẽ được chia thành 2 vùng: tuần tự và thời gian.
-__label__FR Hệ thống sẽ cho phép sửa đổi màn hình.
-__label__FR Hệ thống sẽ lọc dữ liệu theo: Địa điểm và Sự kiện chính.
-__label__FR Hệ thống sẽ cung cấp khả năng tạm dừng và tiếp tục làm mới dữ liệu.
-__label__FR Hệ thống sẽ cung cấp báo cáo lịch sử về những thay đổi được thực hiện đối với dữ liệu Hoạt động hoặc Sự kiện.
-__label__NF Giao diện của hệ thống phải tuân theo các tiêu chuẩn giao diện người dùng của thiết bị thông minh.
-__label__NF Giao diện người dùng sẽ có các nút menu tiêu chuẩn để điều hướng.
-__label__NF Hệ thống phải có giao diện chuyên nghiệp.
-__label__NF Sản phẩm phải có bảng màu và phông chữ nhất quán.
-__label__NF Hệ thống sẽ được sử dụng bởi các nhà môi giới không được đào tạo.
-__label__NF Hệ thống phải trực quan và tự giải thích.
-__label__NF Sản phẩm sẽ tạo ra kết quả tìm kiếm trong thời gian có thể chấp nhận được.
-__label__NF Kết quả tìm kiếm sẽ được trả lại không muộn hơn 30 giây sau khi người dùng nhập tiêu chí tìm kiếm.
-__label__NF Sản phẩm sẽ đồng bộ hóa danh bạ và cuộc hẹn trong thời gian có thể chấp nhận được.
-__label__FR Sản phẩm sẽ đồng bộ hóa với hệ thống văn phòng mỗi giờ.
-__label__NF Sản phẩm sẽ có sẵn để sử dụng 24 giờ mỗi ngày 365 ngày mỗi năm.
-__label__NF Trong số 1000 lượt truy cập vào hệ thống, hệ thống có sẵn 999 lần.
-__label__NF Sản phẩm sẽ hoạt động ở chế độ ngoại tuyến bất cứ khi nào kết nối internet không khả dụng.
-__label__NF Sản phẩm sẽ duy trì các sở thích của người dùng trong trường hợp bị lỗi.
-__label__NF 100% tùy chọn người dùng đã lưu sẽ được khôi phục khi hệ thống trực tuyến trở lại.
-__label__NF Sản phẩm sẽ có thể hỗ trợ nhiều người dùng từ xa.
-__label__NF Sản phẩm sẽ có thể hỗ trợ 1000 người dùng đồng thời.
-__label__NF Sản phẩm sẽ có khả năng xử lý 1000 người dùng hiện có. Con số này dự kiến sẽ tăng gấp 5 lần trong năm tới. 
-__label__FR Màn hình đăng nhập được hiển thị. Sử dụng tài khoản bao gồm số điện thoại và mật khẩu do người dùng đăng ký để thực hiện đăng nhập.
-__label__FR Hệ thống báo cáo cảnh báo hạng mục, linh kiện, phụ tùng phải bảo dưỡng, thay thế.
-__label__FR Hệ thống báo cáo về nhu cầu vật tư thay thế.
-__label__FR Hệ thống báo cáo về tình trạng sử dụng.
-__label__FR Hệ thống báo cáo về nhật ký/nhật trình thiết bị.
-__label__FR Hệ thống báo cáo theo dõi lịch sử cấp mới, sửa đổi, trạng thái, của máy móc, thiết bị...
+__label__FR Technician/ Line Manager/ Production Manager xóa Asset trên hệ thống 
+__label__NF Hệ thống sẽ làm mới màn hình sau mỗi 60 giây. 
+__label__NF Ứng dụng phải phù hợp với màu của lược đồ do Bộ An ninh Nội địa quy định 
+__label__NF Nếu được chiếu, dữ liệu phải có thể đọc được. Trên màn hình chiếu 10x10, 90% người xem phải có thể đọc dữ liệu Sự kiện / Hoạt động từ khoảng cách xem 30. 
+__label__NF Sản phẩm sẽ có sẵn trong giờ làm việc bình thường. Miễn là người dùng có quyền truy cập vào PC khách hàng, hệ thống sẽ khả dụng 99% thời gian trong sáu tháng đầu hoạt động.  
+__label__NF Sản phẩm phải đảm bảo rằng nó chỉ có thể được truy cập bởi người dùng được ủy quyền. Sản phẩm sẽ có thể phân biệt giữa người dùng được ủy quyền và người dùng trái phép trong mọi nỗ lực truy cập. 
+__label__NF Sản phẩm sẽ phản hồi nhanh để cập nhật dữ liệu mới nhất trên màn hình 
+__label__NF Hệ thống phải có dạng MDI cho phép xem biểu đồ và bảng dữ liệu. 
+__label__NF Hệ thống sẽ hiển thị các Sự kiện trong một bảng dọc theo thời gian. 
+__label__NF Màn hình sẽ có hai vùng: 2/3 bên trái của màn hình là đồ họa bên phải 1/3 của màn hình là bảng dữ liệu. 
+__label__NF Mặt bảng của màn hình sẽ được chia thành 2 vùng: tuần tự và thời gian. 
+__label__FR Hệ thống sẽ cho phép sửa đổi màn hình. 
+__label__FR Hệ thống sẽ lọc dữ liệu theo: Địa điểm và Sự kiện chính. 
+__label__FR Hệ thống sẽ cung cấp khả năng tạm dừng và tiếp tục làm mới dữ liệu. 
+__label__FR Hệ thống sẽ cung cấp báo cáo lịch sử về những thay đổi được thực hiện đối với dữ liệu Hoạt động hoặc Sự kiện. 
+__label__NF Giao diện của hệ thống phải tuân theo các tiêu chuẩn giao diện người dùng của thiết bị thông minh. 
+__label__NF Giao diện người dùng sẽ có các nút menu tiêu chuẩn để điều hướng. 
+__label__NF Hệ thống phải có giao diện chuyên nghiệp. 
+__label__NF Sản phẩm phải có bảng màu và phông chữ nhất quán. 
+__label__NF Hệ thống sẽ được sử dụng bởi các nhà môi giới không được đào tạo. 
+__label__NF Hệ thống phải trực quan và tự giải thích. 
+__label__NF Sản phẩm sẽ tạo ra kết quả tìm kiếm trong thời gian có thể chấp nhận được. 
+__label__NF Kết quả tìm kiếm sẽ được trả lại không muộn hơn 30 giây sau khi người dùng nhập tiêu chí tìm kiếm. 
+__label__NF Sản phẩm sẽ đồng bộ hóa danh bạ và cuộc hẹn trong thời gian có thể chấp nhận được. 
+__label__FR Sản phẩm sẽ đồng bộ hóa với hệ thống văn phòng mỗi giờ. 
+__label__NF Sản phẩm sẽ có sẵn để sử dụng 24 giờ mỗi ngày 365 ngày mỗi năm. 
+__label__NF Trong số 1000 lượt truy cập vào hệ thống, hệ thống có sẵn 999 lần. 
+__label__NF Sản phẩm sẽ hoạt động ở chế độ ngoại tuyến bất cứ khi nào kết nối internet không khả dụng. 
+__label__NF Sản phẩm sẽ duy trì các sở thích của người dùng trong trường hợp bị lỗi. 
+__label__NF 100% tùy chọn người dùng đã lưu sẽ được khôi phục khi hệ thống trực tuyến trở lại. 
+__label__NF Sản phẩm sẽ có thể hỗ trợ nhiều người dùng từ xa. 
+__label__NF Sản phẩm sẽ có thể hỗ trợ 1000 người dùng đồng thời. 
+__label__NF Sản phẩm sẽ có khả năng xử lý 1000 người dùng hiện có. Con số này dự kiến sẽ tăng gấp 5 lần trong năm tới.  
+__label__FR Màn hình đăng nhập được hiển thị. Sử dụng tài khoản bao gồm số điện thoại và mật khẩu do người dùng đăng ký để thực hiện đăng nhập. 
+__label__FR Hệ thống báo cáo cảnh báo hạng mục, linh kiện, phụ tùng phải bảo dưỡng, thay thế. 
+__label__FR Hệ thống báo cáo về nhu cầu vật tư thay thế. 
+__label__FR Hệ thống báo cáo về tình trạng sử dụng. 
+__label__FR Hệ thống báo cáo về nhật ký/nhật trình thiết bị. 
+__label__FR Hệ thống báo cáo theo dõi lịch sử cấp mới, sửa đổi, trạng thái, của máy móc, thiết bị... 
