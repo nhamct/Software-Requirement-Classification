@@ -29,7 +29,7 @@ __label__FR IT Manager thiết lập danh mục Loại tài sản (Asset type)
 __label__FR IT Manager thiết lập các trường thông phụ thuộc từng loại tài sản 
 __label__FR IT Manager thiết lập danh mục hạng mục công việc bảo trì (dựa trên loại tài sản) 
 __label__FR IT Manager thiết lập bộ máy nhân sự trên hệ thống (bộ phận, trưởng bộ phận, danh sách người dùng, phân quyền, thời gian truy cập được phép) 
-__label__FR __label__FR Technician ghi nhận lỗi thiết bị trên hệ thống, bao gồm Scan code để định danh thiết bị và Điền các thông tin cần thiết 
+__label__FR Technician ghi nhận lỗi thiết bị trên hệ thống, bao gồm Scan code để định danh thiết bị và Điền các thông tin cần thiết 
 __label__FR Line Manager nhận thông báo về lỗi thiết bị phát sinh 
 __label__FR Line Manager tạo Danh sách bảo trì tương ứng 
 __label__FR Technician/ Line Manager/ Production Manager xem danh sách lỗi thiết bị trên hệ thống. 
